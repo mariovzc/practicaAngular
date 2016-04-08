@@ -1,0 +1,12 @@
+<html ng-app="mainModule">
+  <head>
+  		<meta charset="utf-8">
+ 	 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+ 	 <script src="controller.js"></script>
+  </head>
+  <body ng-controller="FirstController">
+    <h1>{{nombre}}</h1>
+    <button type="button" id="boton1" name="button">click</button>
+    <button type="button" ng-click="nombre ='otro nombre ngclick'" name="button">ngclick</button>
+  </body>
+</html>
